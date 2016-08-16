@@ -1,4 +1,10 @@
-def helloWord():
+def helloworld():
     print("hello, world 2")
 
-helloWord()
+
+def add(a, b):
+    c = a + b
+    return c
+
+helloworld()
+print(add(2, 2))
